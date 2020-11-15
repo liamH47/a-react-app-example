@@ -13,10 +13,10 @@
   "dependencies": {
     "mocha-multi": "^1.0.1",
     "moment": "^2.22.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4",
-    "webpack": "^3.11.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.0",
+    "webpack": "^4.44.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,8 +32,20 @@
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "mocha": "^5.2.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "mocha": "^8.2.1",
     "sinon": "^6.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
